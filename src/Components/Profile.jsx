@@ -30,7 +30,7 @@ const Profile = () => {
       <div className=" w-96 h-96 rounded-2xl p-6 shadow-2xl shadow-sky-300">
         <div className="flex items-center flex-col">
             <div className="flex items-center ">
-                <img src="./avatar.png" alt="avt" className="w-24 h-24"/>
+                <img src="./Twitter_Clone/avatar.png" alt="avt" className="w-24 h-24"/>
             </div>
             <div className="mt-10 font-bold">
                     <p className="text-red-600">const<span className="text-indigo-600"> aboutme</span> = function{" () {"}</p> 
