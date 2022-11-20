@@ -25,13 +25,12 @@ const Profile = () => {
       }*/
       //prof(); It works as expected but maximum requests can be 50 only that's why I am using static data. 
     }, [])
-    const im = './avatar.png'
     return (
     <div className="flex items-center justify-center w-full h-screen">
       <div className=" w-96 h-96 rounded-2xl p-6 shadow-2xl shadow-sky-300">
         <div className="flex items-center flex-col">
             <div className="flex items-center ">
-                <img src={im} alt="avt" className="w-24 h-24"/>
+                <img src="./avatar.png" alt="avt" className="w-24 h-24"/>
             </div>
             <div className="mt-10 font-bold">
                     <p className="text-red-600">const<span className="text-indigo-600"> aboutme</span> = function{" () {"}</p> 
