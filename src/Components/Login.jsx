@@ -50,8 +50,8 @@ const Login = () => {
     useEffect(() => {
       function islogged(){
         if(localStorage.getItem("login")){
-            console.log("me")
-            navigate("/home")
+            //console.log("me")
+            navigate("/Twitter_Clone/home")
       }
     }
     islogged();

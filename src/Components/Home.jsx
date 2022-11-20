@@ -14,7 +14,7 @@ const Home = () => {
 useEffect(() => {
      async function islogged(){
         if(login===null){
-            navigate("/login");
+            navigate("/Twitter_Clone/login");
         }
         else{
           //const res = await fetch("https://tweets.free.beeceptor.com/tweets/all");
@@ -68,7 +68,7 @@ const handledelete = (i)=>{
   setdata(newD)
 }
 const handlesearch = ()=>{
-  navigate(`/search?${search}`,{state:data})
+  navigate(`/Twitter_Clone/search?${search}`,{state:data})
 }
 
   return (
@@ -77,7 +77,7 @@ const handlesearch = ()=>{
         <h1 className="m-4 font-bold text-2xl">Home</h1>
           <br/>
             <div className="flex items-center ml-2">
-              <img src="/avatar.png" className="w-10 h-10" alt="avatar"/>
+              <img src="./Twitter_Clone/avatar.png" className="w-10 h-10" alt="avatar"/>
               <input type="text" placeholder="What's  happening?" className="ml-2 outline-none text-xl w-auto" onChange={(e)=>setinput(e.target.value)}/>
             </div>
           <hr className="mt-10 mx-10"/>
