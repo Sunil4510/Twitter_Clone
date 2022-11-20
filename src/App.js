@@ -14,9 +14,9 @@ const App = () => {
   useEffect(() => {
     function islogged(){
         if(!login){
-            navigate("/Twitter_Clone/login");
+            navigate("/login");
         }else{
-          navigate("/Twitter_Clone/home")
+          navigate("/home")
         }
     }
     islogged();

@@ -77,7 +77,7 @@ const handlesearch = ()=>{
         <h1 className="m-4 font-bold text-2xl">Home</h1>
           <br/>
             <div className="flex items-center ml-2">
-              <img src="./avatar.png" className="w-10 h-10" alt="avatar"/>
+              <img src="./Twitter_Clone/avatar.png" className="w-10 h-10" alt="avatar"/>
               <input type="text" placeholder="What's  happening?" className="ml-2 outline-none text-xl w-auto" onChange={(e)=>setinput(e.target.value)}/>
             </div>
           <hr className="mt-10 mx-10"/>
