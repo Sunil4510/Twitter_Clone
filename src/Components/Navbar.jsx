@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const navigate = useNavigate();
     const imgs = ['./home.svg','./user.png']
-    const link = ['/Twitter_Clone/home','/Twitter_Clone/profile']
+    const link = ['/home','/profile']
     const handlelogout = ()=>{
         localStorage.removeItem('login');
         alert("logout successfully");
-        navigate("/Twitter_Clone/login");
+        navigate("/login");
       }
   return (
     <div className="navbar 2xl:h-auto border-r-2 md:max-h-10 md:w-auto md:bottom-0 md:sticky md:bg-white md:border-r-0 ">

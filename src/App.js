@@ -26,10 +26,10 @@ const App = () => {
     <div className="flex md:flex-col-reverse">
     <Navbar/>
     <Routes>
-      <Route path="/Twitter_Clone/home" element={<Home/>}/>
-      <Route path="/Twitter_Clone/login" element={<Login/>}/>
-      <Route path="/Twitter_Clone/profile" element={<Profile/>}/>
-      <Route path="/Twitter_Clone/search" element={<Search/>}/>      
+      <Route path="/home" element={<Home/>}/>
+      <Route path="/login" element={<Login/>}/>
+      <Route path="/profile" element={<Profile/>}/>
+      <Route path="/search" element={<Search/>}/>      
     </Routes>
     </div>
     </>

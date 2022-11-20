@@ -51,7 +51,7 @@ const Login = () => {
       function islogged(){
         if(localStorage.getItem("login")){
             //console.log("me")
-            navigate("/Twitter_Clone/home")
+            navigate("/home")
       }
     }
     islogged();
